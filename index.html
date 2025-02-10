@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: rgb(0, 140, 255);"> Hello World! </h1>
+    <h3 id = 'main'> A subtitle </h3>
+
+    <button id = 'NB'>Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('NB')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'test.html'
+        })
+    </script>
+
+    <p id = 'main'>My name is Carson Mitteness</p>
+
+    <p class = "A">Today is a <i>good</i> day.</p>
+
+    <p>I will get an A in <b>DS4200</b>. </p>
+
+    <a href="https://www.northeastern.edu"> Please check my University website</a>
+
+    <p>To do list:
+        <ol class = "A">
+            <li>Talk to my TAs</li>
+            <li>Regrade your quiz</li>
+            <li>Read some paper</li>
+        </ol>
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Archie_the_Pembroke_Welsh_Corgi.jpg/444px-Archie_the_Pembroke_Welsh_Corgi.jpg" alt="Show the picture" width = 250>
+
+</body>
+</html>
